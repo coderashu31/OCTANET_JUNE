@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1e3fo;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    background-color: rgb(243, 160, 160);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(237, 7, 7, 0.1);
+    width: 400px;
+}
+
+
+#motivation-container {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#motivation-container img {
+    width: 400px;  /* Make the image responsive */
+    height: 200px; /* Set a fixed height */
+    object-fit:fill;  /* Ensures the image covers the area, maintaining aspect ratio */
+    display: block; /* Ensures no extra space at the bottom of the image */
+    border-radius: 15px; /* Match the border radius of the service item */
+}
+
+#motivational-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-task {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background-color: #218838;
+}
+
+#tasks-container {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
